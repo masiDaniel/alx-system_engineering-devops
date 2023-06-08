@@ -1,2 +1,2 @@
-#!/bin/bash
-username= $(whoami) echo "the username is : $username "
+#!/bin/bash 
+echo "Effective username: $(id -un)"

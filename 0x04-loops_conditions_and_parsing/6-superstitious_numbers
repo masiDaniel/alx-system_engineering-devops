@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# displays numbers from 1 to 20
+# displays 4 and then bad luck from China
+# displays 9 and then bad luck from Japan
+# displays 17 and then bad luck from Italy
+
+num=1
+while [ $num -le 20 ]
+do
+	case $num in
+		4)
+			echo "$num"
+			echo "bad luck from China"
+			;;
+		9)
+			echo "$num"
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "$num"
+			echo "bad luck from Italy"
+			;;
+		*)
+			echo $num
+			;;
+	esac
+	num=$((num+1))
+done

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Use the 'cut' command to extract the desired fields from /etc/passwd
+# and use a 'while' loop to read each line of the file.
+
+cut -d: -f1,3,6 /etc/passwd | while IFS=: read -r username uid homedir; do
+    echo "Username: $username"
+    echo "User ID: $uid"
+    echo "Home Directory: $homedir"
+done

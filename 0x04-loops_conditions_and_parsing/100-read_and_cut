@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Use the 'cut' command to extract the desired fields from /etc/passwd
 # and use a 'while' loop to read each line of the file.
 

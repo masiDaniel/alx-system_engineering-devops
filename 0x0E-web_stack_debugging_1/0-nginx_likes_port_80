@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# ssscript that configure a server to the above requirements
+# Conscript that configures a server to the above requirements
 
 # Update Nginx configuration to listen on port 80
 sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
